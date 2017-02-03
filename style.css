@@ -1,14 +1,16 @@
+
+
+
 html, body {
   margin: 0;
   padding: 0;
 }
 
 html { 
-  background: url(http://wallpaper-gallery.net/images/imac-wallpaper/imac-wallpaper-16.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+}
+
+.firstpage{
+  background:url(http://wallpaper-gallery.net/images/imac-wallpaper/imac-wallpaper-16.jpg);
 }
 
 .header{
@@ -16,7 +18,7 @@ html {
 }
 
 .container {
-  max-width: 940px;
+  max-width: 100%;
   height: 100px;
   margin: 0 auto;
   padding: 0 10px;
@@ -55,6 +57,22 @@ html {
   text-transform: uppercase;
 }
 
+.back-to-top{
+  background-color:black;
+  color:white;
+  border: 1px solid white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px 10px 20px;
+  margin-left: 50px;
+  margin-top:100px;
+}
+
 .btn-main {
   background-color: #333;
   color: #fff;
@@ -87,6 +105,7 @@ html {
 .supporting {
   padding-top: 10px;
   padding-bottom: 100px;
+  clear:both;
 }
 
 .supporting .col {
@@ -94,6 +113,16 @@ html {
   width: 33%;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+}
+
+.supporting .col a{
+  text-decoration:none;
+  color:white;
+}
+
+.supporting .col a:hover{
+  text-decoration:none;
+  color:black;
 }
 
 .supporting img {
@@ -107,6 +136,8 @@ html {
 }
 
 .supporting p {
+  font-family: 'Raleway', sans-serif;
+  color:white;	
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -140,3 +171,149 @@ html {
     width: 100%;
   }
 }
+
+
+.title{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+
+.aboutme{
+  background-color:#333;
+  clear:both;
+  height: 700px;
+  width: auto;
+  padding: 10px 10px 10px 200px;
+}
+
+
+
+.aboutme .text{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  width:40%;
+  padding: 10px 40px 40px 20px;
+  float:left;
+  height:650px;
+}
+
+.aboutme .text .description{
+  
+}
+
+.aboutme .pictures{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  width:50%;
+  padding: 50px 0px 0px 0px;
+  float:left;
+  height:650px;
+}
+
+
+
+.aboutme .logo{
+  width : 40px;
+  height: 40px;
+  border-radius:5px;
+  margin: 2px 5px 2px 5px;
+}
+
+.aboutme .profpic{
+  width : 550px;
+  height: 550px;
+  border-radius:50px;
+  margin: 2px 5px 2px 5px;
+}
+
+p span{
+  color: #F57676;
+}
+
+
+
+
+.rest{
+  clear:both;
+}
+
+
+
+.past{
+  background: url("https://wallpaperscraft.com/image/background_bumps_light_86951_1920x1080.jpg");
+  clear:both;
+  height: 700px;
+  width: auto;
+  padding: 10px 10px 10px 200px;
+}
+
+.present{
+  background-color: #333;
+  clear:both;
+  height: 800px;
+  width: auto;
+  padding: 10px 10px 10px 200px
+}
+
+.future{
+  background: url("https://wallpaperscraft.com/image/background_bumps_light_86951_1920x1080.jpg");
+  clear:both;
+  height: 700px;
+  width: auto;
+  padding: 10px 10px 10px 200px
+}
+
+
+.p1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  width:40%;
+  padding: 10px 40px 40px 20px;
+  float:left;
+  height:650px;
+}
+
+.p2{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  width:40%;
+  padding: 70px 40px 40px 20px;
+  float:left;
+  height:650px;
+
+}
+
+.p2 a{
+  text-decoration:none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.p2 a:hover{
+  text-decoration:none;
+  color: #F57676;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
