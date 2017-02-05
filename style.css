@@ -220,8 +220,8 @@ html {
 .aboutme{
   background-color:#333;
   clear:both;
-  height: 700px;
-  width: auto;
+  min-height: 700px;
+  width: 100%;
   padding: 10px 10px 10px 200px;
 }
 
@@ -283,7 +283,7 @@ p span{
 .present{
   background-color: #333;
   clear:both;
-  height: 800px;
+  min-height: 800px;
   width: auto;
   padding: 10px 10px 10px 200px
 }
@@ -303,7 +303,7 @@ p span{
   width:40%;
   padding: 10px 40px 40px 20px;
   float:left;
-  height:650px;
+  min-height:650px;
 }
 
 .p2{
@@ -312,7 +312,7 @@ p span{
   width:40%;
   padding: 70px 40px 40px 20px;
   float:left;
-  height:650px;
+  min-height:650px;
 
 }
 
