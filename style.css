@@ -1,6 +1,3 @@
-
-
-
 html { 
   background: url(http://wallpaper-gallery.net/images/imac-wallpaper/imac-wallpaper-16.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -145,6 +142,7 @@ html {
 .supporting .col {
   float: left;
   width: 33%;
+
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
@@ -220,9 +218,9 @@ html {
 .aboutme{
   background-color:#333;
   clear:both;
-  min-height: 700px;
-  width: 100%;
-  padding: 10px 10px 10px 200px;
+  overflow:auto;
+  width: auto;
+  padding: 110px 10px 10px 10px;
 }
 
 
@@ -256,6 +254,7 @@ html {
   height: 40px;
   border-radius:5px;
   margin: 2px 5px 2px 5px;
+  padding-top: 100px;
 }
 
 .aboutme .profpic{
@@ -275,25 +274,28 @@ p span{
 .past{
   background-color: #333;
   clear:both;
-  min-height: 700px;
+  overflow:auto;
   width: auto;
-  padding: 10px 10px 10px 200px;
+  padding: 10px 10px 10px 10px;
 }
 
 .present{
   background-color: #333;
   clear:both;
-  min-height: 800px;
   width: auto;
-  padding: 10px 10px 10px 200px
+  overflow:auto;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid red;
 }
+
 
 .future{
   background-color: #333;
   clear:both;
-  min- height: 400px;
+  overflow:auto;
   width: auto;
-  padding: 10px 10px 10px 200px
+  padding: 10px 10px 10px 10px;
+  border: 2px solid red;
 }
 
 
@@ -303,16 +305,18 @@ p span{
   width:40%;
   padding: 10px 40px 40px 20px;
   float:left;
-  min-height:650px;
+  overflow:auto;
+  border: 2px solid yellow;
 }
 
 .p2{
   color: white;
   font-family: 'Raleway', sans-serif;
   width:40%;
-  padding: 70px 40px 40px 20px;
+  padding: 10px 40px 40px 20px;
   float:left;
-  min-height:650px;
+  overflow:auto;
+  border: 2px solid blue;
 
 }
 
