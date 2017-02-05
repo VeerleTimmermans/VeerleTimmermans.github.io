@@ -275,7 +275,7 @@ p span{
 .past{
   background-color: #333;
   clear:both;
-  height: 700px;
+  min-height: 700px;
   width: auto;
   padding: 10px 10px 10px 200px;
 }
@@ -291,7 +291,7 @@ p span{
 .future{
   background-color: #333;
   clear:both;
-  height: 400px;
+  min- height: 400px;
   width: auto;
   padding: 10px 10px 10px 200px
 }
