@@ -5,19 +5,20 @@
   <link rel='stylesheet' href='style.css'/>
   </head>
   <body>
+
   <a name="BackToTop"> </a> 
   <div class="firstpage"> 
-    <div class="header">
+<!--    <div class="header">
       <div class="container">
 	
       </div>
     </div>
-
+-->
     <div class="jumbotron">
       <div class="container">  
         <div class="main">
            <h1> Veerle Tan-Timmermans  </h1> 
-          <a href="#AboutMe" class="btn-main"> Learn more about me</a>
+          <a href="#AboutMe" class="btn-main" id="aboutme"> Learn more about me</a>
         </div>
       </div>
     </div>
@@ -26,21 +27,21 @@
      
      
       <div class="container">
-        <div class="col">
+        <div class="col" id="past">
           <img src="https://s3.amazonaws.com/codecademy-content/projects/broadway/develop.svg">
           <a href="#Past"><h2> Past </h2> </a>
           <p> Read about my previous adventures </p>
           
           
         </div>
-        <div class="col">
+        <div class="col" id="present">
           <img src="https://s3.amazonaws.com/codecademy-content/projects/broadway/develop.svg">
           <a href="#Present"><h2> Present </h2></a>
           <p> Read about my current research project </p>
            
           
         </div>
-        <div class="col">
+        <div class="col" id="future">
           <img src="https://s3.amazonaws.com/codecademy-content/projects/broadway/develop.svg">
           <a href="#Future"><h2> Future </h2></a>
           <p> Read about my future plans </p>
@@ -54,7 +55,7 @@
 </div>
     
 
-<a name="AboutMe"></a>
+<!-- <a name="AboutMe"></a> -->
 <div class="aboutme">
   <div class="text">
     <div class="title">
@@ -108,9 +109,6 @@
     <p>
       Or contact me on: <span> v (dot) timmermans (at) maastrichtuniversity (dot) nl </span>.
     </p> 	
-	<div class="btt">
-          <p> <a href="#BackToTop" class="back-to-top"> Back to top </a> </p>
-        </div>
     </div>
   </div>
   <div class="pictures">
@@ -119,9 +117,8 @@
 </div>
 
 
-<div class="space"> </div>
 
-<a name="Past"></a>
+<!--<a name="Past"></a>-->
 <div class="past">
   <div class="p1">
     <div class="title">
@@ -163,9 +160,6 @@
 	</p>
     </div class="cv">
 	<hr>
-    <div class="btt"> 
-      <a href="#BackToTop" class="back-to-top"> Back to top </a>
-    </div>
   </div>    
   <div class="p2">
 	<hr>
@@ -230,11 +224,9 @@
 
 
 
-<div class="space"> </div>
 
 
-
-<a name="Present"></a>
+<!--<a name="Present"></a>-->
 <div class="present">
  
   <div class="p1">
@@ -264,9 +256,6 @@ in the Netherlands. Currently I am involved in the course <a href="https://www.m
 This personal page is coded completely from scratch using html. Besides the html and css course, 
 I followed the Javascript course, and Python is up next.  </p>
 
-    <div class="btt"> 
-	<a href="#BackToTop" class="back-to-top"> Back to top </a>
-    </div>
   </div>
   <div class="p2">
    
@@ -308,10 +297,7 @@ it as a building block for our main algorithm.	 </p>
 
 
 
-<div class="space"> </div>
-
-
-<a name="Future"></a>
+<!--<a name="Future"></a>-->
 <div class="future">
   <div class="p1">
     <div class="title">
@@ -325,9 +311,6 @@ it as a building block for our main algorithm.	 </p>
       <p> In the mean time, I want to develop several new skills. In the past weeks I've
 	  finished courses in html, CSS and JavaScript (and as a result this personal page).
 	  Now, I want to continue with the basics of Python, SQL, Java and PHP.  </p>
-    <div class="btt"> 
-      <a href="#BackToTop" class="back-to-top"> Back to top </a>
-    </div>
   </div>
   <div class="p2">
     <h3> After July 2018 </h3>
@@ -369,7 +352,7 @@ it as a building block for our main algorithm.	 </p>
 
 
 
-
+<!--
 
 <div class="space"> </div>
 
@@ -387,7 +370,7 @@ it as a building block for our main algorithm.	 </p>
 </div>
 
 
-
+-->
 
 
 
@@ -397,7 +380,8 @@ it as a building block for our main algorithm.	 </p>
     
     
 
-	
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+<script src='main.js'> </script>	
 
 
   </body>
