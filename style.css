@@ -87,8 +87,9 @@ html {
 }
 
 .btt{
-  padding-top: 20px;
   text-align: center;
+  padding: 15px 15px;
+  height: 15px;
 }
 
 .back-to-top:hover{
