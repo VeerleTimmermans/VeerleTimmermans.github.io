@@ -1,6 +1,4 @@
 
-
-
 html, body {
   margin: 0;
   padding: 0;
@@ -222,6 +220,7 @@ html {
   height: 40px;
   border-radius:5px;
   margin: 2px 5px 2px 5px;
+  border: 1px solid white;
 }
 
 .aboutme .profpic{
