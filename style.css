@@ -1,9 +1,6 @@
 html { 
   background: url(http://www.mrwallpaper.com/wallpapers/colorful-leaves-hd.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
 }
 
 .firstpage{
