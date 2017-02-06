@@ -1,9 +1,16 @@
+<<<<<<< HEAD
+
+html, body {
+  margin: 0;
+  padding: 0;
+=======
 html { 
   background: url(http://wallpaper-gallery.net/images/imac-wallpaper/imac-wallpaper-16.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+>>>>>>> origin/master
 }
 
 html { 
@@ -254,7 +261,11 @@ html {
   height: 40px;
   border-radius:5px;
   margin: 2px 5px 2px 5px;
+<<<<<<< HEAD
+  border: 1px solid white;
+=======
   padding-top: 100px;
+>>>>>>> origin/master
 }
 
 .aboutme .profpic{
