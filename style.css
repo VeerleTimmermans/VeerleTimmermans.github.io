@@ -1,14 +1,22 @@
+<<<<<<< HEAD
 
 html, body {
   margin: 0;
   padding: 0;
+=======
+html { 
+  background: url(http://wallpaper-gallery.net/images/imac-wallpaper/imac-wallpaper-16.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+>>>>>>> origin/master
 }
 
 html { 
 }
 
 .firstpage{
-  background:url(http://wallpaper-gallery.net/images/imac-wallpaper/imac-wallpaper-16.jpg);
 }
 
 .header{
@@ -18,6 +26,13 @@ html {
 .container {
   max-width: 100%;
   height: 100px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.space{
+ max-width: 100%;
+  height: 30px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -55,8 +70,33 @@ html {
   text-transform: uppercase;
 }
 
+.link a{
+ text-decoration:none;
+ color:white;
+}
+.link a:hover{
+ text-decoration:none;
+ color:#F57676;
+}
+
 .back-to-top{
   background-color:black;
+  color:white;
+  border: 1px solid white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px 10px 20px;
+  margin-left: 50px;
+  margin-top:100px;
+}
+
+.back-to-top:hover{
+  background-color:#333;
   color:white;
   border: 1px solid white;
   font-family: 'Raleway', sans-serif;
@@ -109,6 +149,7 @@ html {
 .supporting .col {
   float: left;
   width: 33%;
+
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
@@ -184,9 +225,9 @@ html {
 .aboutme{
   background-color:#333;
   clear:both;
-  height: 700px;
+  overflow:auto;
   width: auto;
-  padding: 10px 10px 10px 200px;
+  padding: 110px 10px 10px 10px;
 }
 
 
@@ -220,7 +261,11 @@ html {
   height: 40px;
   border-radius:5px;
   margin: 2px 5px 2px 5px;
+<<<<<<< HEAD
   border: 1px solid white;
+=======
+  padding-top: 100px;
+>>>>>>> origin/master
 }
 
 .aboutme .profpic{
@@ -237,34 +282,29 @@ p span{
 
 
 
-.rest{
-  clear:both;
-}
-
-
-
 .past{
-  background: url("https://wallpaperscraft.com/image/background_bumps_light_86951_1920x1080.jpg");
+  background-color: #333;
   clear:both;
-  height: 700px;
+  overflow:auto;
   width: auto;
-  padding: 10px 10px 10px 200px;
+  padding: 10px 10px 10px 10px;
 }
 
 .present{
   background-color: #333;
   clear:both;
-  height: 800px;
   width: auto;
-  padding: 10px 10px 10px 200px
+  overflow:auto;
+  padding: 10px 10px 10px 10px;
 }
 
+
 .future{
-  background: url("https://wallpaperscraft.com/image/background_bumps_light_86951_1920x1080.jpg");
+  background-color: #333;
   clear:both;
-  height: 700px;
+  overflow:auto;
   width: auto;
-  padding: 10px 10px 10px 200px
+  padding: 10px 10px 10px 10px;
 }
 
 
@@ -274,17 +314,16 @@ p span{
   width:40%;
   padding: 10px 40px 40px 20px;
   float:left;
-  height:650px;
+  overflow:auto;
 }
 
 .p2{
   color: white;
   font-family: 'Raleway', sans-serif;
   width:40%;
-  padding: 70px 40px 40px 20px;
+  padding: 10px 40px 40px 20px;
   float:left;
-  height:650px;
-
+  overflow:auto;
 }
 
 .p2 a{
