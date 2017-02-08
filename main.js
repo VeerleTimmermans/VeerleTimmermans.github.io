@@ -1,11 +1,13 @@
 function main(){
   $('.main h1').hide();
-  $('.main h1').fadeIn(4000);
-
   $('.aboutme').hide();
   $('.past').hide();
   $('.present').hide();
   $('.future').hide();
+  $('.portfolio').hide();
+  $('.main h1').fadeIn(4000);
+
+
 
   $('#aboutme').on('click', function(){
     $('.past').hide();
