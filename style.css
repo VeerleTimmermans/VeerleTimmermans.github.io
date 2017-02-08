@@ -33,17 +33,26 @@ html {
   height: 450px;
 }
 
-.nav {
-  margin: 0;
-  padding: 20px 0;
-}
-
-.nav li {
-  color: #fff;
+.navbutton {
+  margin: auto auto;
+  padding: 17px 10px;
+  text-align: center;
+  display:inline-block;
+  width: 18%;
+  color:white;
   font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
-  position:inline;
+  background-color: #333;
+}
+
+.navbar{
+  background-color: #333;
+  position:fixed;
+  overflow: auto;
+  width: 98.8%;
+  margin: auto auto;
 }
 
 .main {
